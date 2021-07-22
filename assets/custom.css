@@ -1,6 +1,6 @@
 .site-header,.site-footer {
     display: none;
-}
+} 
 .main-content {
     padding: 0px !important;
     margin: 0px !important;
@@ -19,7 +19,7 @@
     padding: 0px 10px 0px 5px;
 }
 .top-hedaer-cont ul li a{
-	color:#444444; 
+	color:#444444;
 }
 .top-hedaer-cont ul li:last-child{
     border-right:inherit;
