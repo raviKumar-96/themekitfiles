@@ -1,0 +1,296 @@
+.site-header,.site-footer {
+    display: none;
+}
+.main-content {
+    padding: 0px !important;
+    margin: 0px !important;
+}  
+.top-header {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    background: #ebebeb;
+    text-align: right;
+}
+.top-hedaer-cont ul li {
+    display: inline-block;
+    border-right: 1px solid #d2d2d2;
+    text-align: center;
+    padding: 0px 10px 0px 5px;
+}
+.top-hedaer-cont ul li a{
+	color:#444444; 
+}
+.top-hedaer-cont ul li:last-child{
+    border-right:inherit;
+}
+.top-hedaer-cont ul li a svg path {
+    fill: #444;
+}
+.top-hedaer-cont ul li a svg {
+    height: 14px;
+    width: 14px;
+    vertical-align: middle;
+    margin: 0px 4px;
+}
+li.drop-arrow a img {
+    width: 13px;
+    height: 7px;
+    background-size: cover;
+    margin: 0px 4px;
+}
+.menu-cont {
+    position: relative;
+    padding: 0px 60px;
+    height: 70px;
+    line-height: 70px;
+    border-bottom:1px solid #d2d2d2;
+}
+.menu-cont .menu-logo {
+    position: absolute;
+    left: 60px;
+    top: 15px;
+}
+.menu-cont .menu-logo svg{
+  height:35px;
+  width:46px;
+}
+.menu-cont .menu-icon {
+    position: absolute;
+    right: 60px;
+    top: 6px;
+}
+.menu-cont .menu-icon a {
+    padding-left: 40px;
+}
+a.cart-icon{
+  position:relative;
+}
+a.cart-icon:hover::after{
+  content: '1';
+}
+
+a.cart-icon::after {
+    position: absolute;
+    content: '0';
+    height: 15px;
+    width: 15px;
+    background: #007db5;
+    bottom: -5px;
+    right: -8px;
+    border-radius: 50%;
+    line-height: 16px;
+    color: #fff;
+    padding-left: 4px;
+    font-size: 12px;
+}
+.menu-content {
+    width: 100%;
+    text-align: center;
+}
+.menu-content li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+.menu-content li a {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+.menu-content li a:hover{
+  border-bottom:2px solid #000;
+  padding-bottom:24px;
+}
+.slick-slider-sec {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+.slick-slider-sec .slider-cont a{
+  font-size:14px;
+}
+.banner-sec {
+    width: 100%;
+    height: 851px;
+    background: url(https://cdn.shopify.com/s/files/1/0021/1235/6427/files/Desktop_All_Colours_copy.jpg?v=1625225775) center center no-repeat;
+    background-size: cover;
+    position:relative;
+}
+.banner-cont {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index:99;
+}
+.banner-content h1 {
+    font-size: 50px;
+    color: #fff;
+}
+p.para-p {
+    color: #fff;
+    font-size: 18px;
+}
+.banner-content a.btn-shop {
+    font-size: 14px;
+    color: #000;
+    background: #fff;
+    width: 120px;
+    display: inline-block;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+.banner-sec.moving{
+  background:url(https://cdn.shopify.com/s/files/1/0021/1235/6427/files/Mens_DesktopArtboard_36_1900x_2b29acdf-b5d9-4733-8f73-9b5ede221432.jpg?v=1625226931)center center no-repeat;
+}
+.banner-sec:after {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+    bottom: 0px;
+    content: '';
+}
+.banner-sec.moving{
+  margin-top:20px;
+}
+.shop-sec .women-shop{
+  width:49.5%;
+  position:relative;
+  background:url(https://cdn.shopify.com/s/files/1/0021/1235/6427/files/Shop_Womens_1440x_891dd9b3-efb1-46ba-b0c5-917acc252f90.jpg?v=1625227933)top center no-repeat;
+  height:450px;
+}
+.shop-sec .women-shop.m{
+  background:url(https://cdn.shopify.com/s/files/1/0021/1235/6427/files/Shop_Mens_2Artboard_2_copy_8_1440x_c095fdc9-b5fd-42c9-96aa-0498cc6b2389.jpg?v=1625227933)top center no-repeat;
+}
+.shop-sec {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 40px;
+}
+.shop-sec .w-cont {
+    position: absolute;
+    right: 60px;
+    top: 35%;
+    text-align:right;
+}
+.shop-sec .w-cont h1 {
+    color: #fff;   
+}
+.w-content a {
+    color: #000;
+    font-size: 14px;
+    background: #fff;
+    height: 45px;
+    width: 110px;
+    display: inline-block;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 45px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.women-shop.m .w-cont {
+    position: absolute;
+    top: 35%;
+    text-align: left;
+    left: 60px !important;
+}
+.discout-content {
+    background: linear-gradient(to bottom,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://cdn.shopify.com/s/files/1/1367/5201/files/Student-Discount-1_720x.jpg?v=1623399498) top center no-repeat;
+    height: 286px;
+    width: 100%;
+    margin: 0 3.5px;
+    position: relative;
+}
+
+.discout-cont {
+    display: flex;
+    padding: 30px 42.5px;
+    background: #ececec;
+}
+.cont-discunt {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.cont-discunt h4 {
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.cont-discunt a{
+    color: #000;
+    font-size: 14px;
+    background: #fff;
+    height: 45px;
+    width:125px;
+    display: inline-block;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 45px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.workout-sec {
+    width: 100%;
+    max-width: inherit;
+    margin: 0 auto;
+    padding: 56px 46px;
+}
+.workout-cont {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 32px;
+    max-width: 100%;
+}
+.workout-sec .workout-content h1{
+  font-size:20px;
+  color:#000;
+}
+.workout-content h2 {
+    font-size: 15px;
+    letter-spacing: 0px;
+}
+.workout-content p {
+    color: #6e6e6e;
+    font-size: 16px;
+}
+.newsletter-sec{
+  width:100%;
+  height:130px;
+  line-height:130px;
+  background:#000;
+  text-align:center;
+}
+.newsletter-sec p {
+    color: #fff;
+    font-size: 18px;
+}
+.newsletter-sec p span {
+    font-weight:600;
+}
+.newsletter-sec a{
+  color: #000;
+    font-size: 14px;
+    background: #fff;
+    height: 45px;
+    width:125px;
+    display: inline-block;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 45px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 10px;
+}
