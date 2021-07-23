@@ -1,7 +1,7 @@
 
-.site-header,.site-footer {
+/* .site-header,.site-footer {
     display: none;
-}  
+}   */
 .main-content {
     padding: 0px !important;
     margin: 0px !important;
@@ -200,7 +200,7 @@ p.para-p {
     font-weight: 600;
 }
 .women-shop.m .w-cont {
-    position: absolute;
+    position: absolute; 
     top: 35%;
     text-align: left;
     left: 60px !important;
@@ -253,7 +253,7 @@ p.para-p {
     width: 100%;
     border: 1px solid #ccc;
     padding: 32px;
-    max-width: 100%;
+    max-width: 100%; 
 }
 .workout-sec .workout-content h1{
   font-size:20px;
